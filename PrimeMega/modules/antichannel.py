@@ -26,7 +26,7 @@ def set_antichannel(update: Update, context: CallbackContext):
             message.reply_text("Unrecognized arguments {}".format(s))
         return
     message.reply_html(
-        "Antichannel setting is currently {} in {}".format(antichannel_status(chat.id), html.escape(chat.title)))
+        "Antichannel Already in Settings {} in {}".format(antichannel_status(chat.id), html.escape(chat.title)))
 
 @Primemsg(Filters.chat_type.groups, group=110)
 def eliminate_channel(update: Update, context: CallbackContext):
@@ -46,8 +46,8 @@ __help__ = """
 *IF YOU USE THIS MODE, THE RESULT IS IN THE GROUP FOREVER YOU CAN'T CHAT USING THE CHANNEL*
 Anti Channel Mode is a mode to automatically ban users who chat using Channels. 
 This command can only be used by *Admins*.
-❂ /antich <'on'/'yes'> *:* enables anti-channel-mode
-❂ /antich <'off'/'no'> *:* disabled anti-channel-mode
+• /antich <'on'/'yes'> *:* enables anti-channel-mode
+• /antich <'off'/'no'> *:* disabled anti-channel-mode
 """
 
 __mod_name__ = "Anti-Channel"
