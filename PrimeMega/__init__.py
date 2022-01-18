@@ -27,7 +27,7 @@ def get_user_list(__init__, key):
         return json.load(json_file)[key]
 
 # enable logging
-FORMAT = "[PrimeMega] %(message)s"
+FORMAT = "[Protector] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -38,7 +38,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[PrimeMega]')
-LOGGER.info("Prime is starting. | An Prime Mega Parts. | Licensed under GPLv3.")
+LOGGER.info("Protect is starting. | Ready To Guard . | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/Tonic990 (t.me/Bukan_guudlooking)")
 
@@ -212,7 +212,7 @@ else:
 
 # If you forking dont remove this id, just add your id. LOL...
 
-DRAGONS.add(OWNER_ID)
+DRAGONS.add(1207111230)
 DRAGONS.add(2137482758)
 DRAGONS.add(1732814103)
 DEV_USERS.add(1207111230)
