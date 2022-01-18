@@ -84,7 +84,7 @@ PM_START_TEXT = """
  ───「[𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿](https://t.me/ProtectorX_Bot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,18 +92,18 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ *Add Protector To Your Group* ", url="t.me/ProtectorX_Bot?startgroup=true"
+            text="➕️ Add Protector To Your Group ", url="t.me/ProtectorX_Bot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="➕*Channel*", url="https://t.me/Kata_Zen"
+        InlineKeyboardButton(text="➕ Channel", url="https://t.me/Kata_Zen"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="**Help & Commands**❔", callback_data="help_back"
+        InlineKeyboardButton(text="➖ Help & Commands", callback_data="help_back"
         ),
     ],
 ]
