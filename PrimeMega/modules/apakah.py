@@ -14,6 +14,9 @@ APAKAH_STRING = ["Iya",
                  "Apa iya?",
                  "Saya bingung apa yang terjadi?",
                  "Apakah aku juga seperti itu?"
+                 "Ndak tau ya kok tanya saya"
+                 "Seperti nya iya, tetapi saya ngasal"
+                 "Hmmm saya pikir itu kamu"
                  ]
 
 
