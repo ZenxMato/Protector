@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Prime Mega](https://t.me/PrimeMegaBot)」───
+ ───「[𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿](https://t.me/ProtectorX_Bot)」───
 *Hello {} !*
 ────────────────────────
 PrimeMega a powerful group management bot built to help you manage your group!
@@ -92,18 +92,18 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ *Add Protector To Your Group* ", url="t.me/ProtectorX_Bot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/PrimeSupportGroup"
+        InlineKeyboardButton(text="➕*Channel*", url="https://t.me/Kata_Zen"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
+        InlineKeyboardButton(text="**Help & Commands**❔", callback_data="help_back"
         ),
     ],
 ]
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Prime Mega!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>*I'm a Protector Ready to Serve*!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -362,7 +362,7 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Prime Mega*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'am *Protector* Ready to Help You in Handling Groups"
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -410,7 +410,7 @@ def prime_about_callback(update, context):
     elif query.data == "prime_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Prime Mega now ready to manage your group."
+            "\nCongragulations, Protector now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -437,14 +437,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ PrimeMega support chats*"
+            text="*๏ Protector Channel*"
             "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/PrimeSupportGroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/PrimeSupportChannel"),
+                    InlineKeyboardButton(text="Support", url="t.me/ProtectorX_Bot"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Kata_Zen"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -457,14 +457,13 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for primeMega</b>\n"
-            f"\nHere Developers Making The PrimeMegaRobot",
+            text=f"<b>๏ Protector </b>\n"
+            f"\nHere Developers!",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
-                    InlineKeyboardButton(text="x~b", url="t.me/Xbarok"),
+                    InlineKeyboardButton(text="Zen", url="t.me/ZenxMato"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -549,7 +548,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help & Command ❓",
+                            text="*Help & Command*❓",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
