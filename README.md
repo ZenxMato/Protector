@@ -1,12 +1,11 @@
+<h1 align="center"><img src="./PrimeMega/resources/GeezFire.gif" width="25px"> 𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 <img src="./PrimeMega/resources/GeezFire.gif" width="25px"></h1>
 <p align="center">
   <img src="https://telegra.ph/file/7ef04233b448db49b3a26.jpg">
 </p>
 
-<h4><p align="center"> 𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 </p></h4>
+`𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 is a modular bot running on python3 with autobots theme and have a lot features`
 
-<p align="center">𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 is a modular bot running on python3 with autobots theme and have a lot features.</p>
 
-<p align="center">
 <a href="https://t.me/PrimeMega"> <img src="https://img.shields.io/badge/Protector-red?&logo=telegram" alt="Prime on Telegram" /> </a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.9.0-white?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
@@ -17,7 +16,7 @@
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
 </p>
 
-### Easiest Way To Deploy On Heroku 
+### 🛡️Easy Deploy On Heroku
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ZenxMato/Protector"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
