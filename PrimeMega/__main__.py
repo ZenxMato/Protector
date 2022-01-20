@@ -86,7 +86,7 @@ PM_START_TEXT = """
 ────────────────────────
 𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 a powerful group management bot built to help you manage your group!
 ────────────────────
-Hit the /help or tap on button to se available command on me.
+𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 can also play songs in your group, if u want play must Subscribe Channel {}.
 """
 
 buttons = [
@@ -99,7 +99,7 @@ buttons = [
         InlineKeyboardButton(text="➕ Channel", url="https://t.me/Kata_Zen"
         ),
         InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
+            text="➕ Chat Mutualan", url="https://t.me/Caritemenanonline"
         ),
     ],
     [
