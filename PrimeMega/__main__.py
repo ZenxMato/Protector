@@ -82,11 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
  ───•[Swain Robot](https://t.me/Swainrobot)•───
-*Hello {} !*
-────────────────────────
-Swain a powerful group management bot built to help you manage your group!
-────────────────────
-Swain Robot can also play songs in your group,
+*Hello {} !,
 """
 
 buttons = [
