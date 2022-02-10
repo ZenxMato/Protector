@@ -81,22 +81,22 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───[Swain Robot](https://t.me/Swainrobot)」───
+ ───•[Swain Robot](https://t.me/Swainrobot)•───
 *Hello {} !*
 ────────────────────────
 Swain a powerful group management bot built to help you manage your group!
 ────────────────────
-Swain Robot can also play songs in your group, if u want play must Subscribe Channel {}.
+Swain Robot can also play songs in your group,
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Swain Robot To Your Group ", url="t.me/ProtectorX_Bot?startgroup=true"
+            text="➕️ Add Swain Robot To Your Group ", url="t.me/Swainrobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="➕ Channel", url="https://t.me/Kata_Zen"
+        InlineKeyboardButton(text="➕ Channel", url="https://t.me/Kataswain"
         ),
         InlineKeyboardButton(
             text="➕ Groups", url="https://t.me/BehemothD"
