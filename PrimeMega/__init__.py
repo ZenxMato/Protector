@@ -38,9 +38,9 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[PrimeMega]')
-LOGGER.info("Protect is starting. | Ready To Guard . | Licensed under GPLv3.")
+LOGGER.info("Swain Robot is starting. | Ready To Guard . | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/Tonic990 (t.me/Bukan_guudlooking)")
+LOGGER.info("Project maintained by: github.com/Tonic990 (t.me/You_Bitchhh)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
