@@ -81,25 +81,25 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿](https://t.me/ProtectorX_Bot)」───
+ ───[Swain Robot](https://t.me/Swainrobot)」───
 *Hello {} !*
 ────────────────────────
-𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 a powerful group management bot built to help you manage your group!
+Swain a powerful group management bot built to help you manage your group!
 ────────────────────
-𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗼𝗿 can also play songs in your group, if u want play must Subscribe Channel {}.
+Swain Robot can also play songs in your group, if u want play must Subscribe Channel {}.
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Protector To Your Group ", url="t.me/ProtectorX_Bot?startgroup=true"
+            text="➕️ Add Swain Robot To Your Group ", url="t.me/ProtectorX_Bot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(text="➕ Channel", url="https://t.me/Kata_Zen"
         ),
         InlineKeyboardButton(
-            text="➕ Chat Mutualan", url="https://t.me/Caritemenanonline"
+            text="➕ Groups", url="https://t.me/BehemothD"
         ),
     ],
     [
@@ -443,8 +443,8 @@ def prime_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/ProtectorX_Bot"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Kata_Zen"),
+                    InlineKeyboardButton(text="Support", url="t.me/Swainrobot"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/KataSwain"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -463,7 +463,7 @@ def prime_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zen", url="t.me/ZenxMato"),
+                    InlineKeyboardButton(text="Owner", url="t.me/You_Bitchhh"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
